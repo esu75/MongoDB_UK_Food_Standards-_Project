@@ -39,6 +39,16 @@ Atotal of 41 establishements were found in the dataset
 
 ![image](https://user-images.githubusercontent.com/118146659/227392554-f72f3b3b-5fec-4b23-aabd-8fee02f13128.png)
 
+step 10:
+Determine which establishments in London have a `RatingValue` greater than or equal to 4?
+Atotal of 34 establishments were found
+step 11:
+convert the result to pandas DataFrame:
+
+![image](https://user-images.githubusercontent.com/118146659/227393057-651af254-202a-49e2-80ad-e6bc89ffae94.png)
+
+
+
 
 
  
