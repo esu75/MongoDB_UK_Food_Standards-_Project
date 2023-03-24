@@ -47,6 +47,19 @@ convert the result to pandas DataFrame:
 
 ![image](https://user-images.githubusercontent.com/118146659/227393057-651af254-202a-49e2-80ad-e6bc89ffae94.png)
 
+step 11:
+Determine top 5 establishments with a `RatingValue` rating value of '5', sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+Searched with a query within 0.01 degree on either side of the latitude and longitude and the json data was converted to pandas DataFrame:
+
+![image](https://user-images.githubusercontent.com/118146659/227599336-1fe044d2-9838-4f02-965e-8d144e289195.png)
+
+step 12:
+Determine the number of  establishments in each Local Authority area having a hygiene score of 0?
+
+A pipeline was created using match, group by and sort queries and 55 establishments were found. The result is converted to pandas DataFrame:
+![image](https://user-images.githubusercontent.com/118146659/227600050-8090c955-4057-43bf-8abf-f5175f38ece0.png)
+
+
 
 
 
